@@ -38,6 +38,9 @@ header {
 
   justify-content: flex-end;
   align-content: center;
+  position: sticky;  /* sticky = grudado */ /* position: sticky; + position: 0; gruda o header no topo*/
+  top: 0; 
+  z-index: 1; /* caso tenha um iframe, use isso para o header ficar na camada de cima */
 }
 
 nav#menu ul {
